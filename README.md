@@ -1,2 +1,2 @@
-# DishanNahitiya
+# Im Dishan Nahitiya
 About me
