@@ -45,7 +45,8 @@
     border-bottom-width: 7px; */
   }
 
-  .index-page-content{
+  /* .index-page-cont{ */
+    .main-content{
     /* min-height: -webkit-fill-available; */
     background-color: #987f34;
     background-image:
@@ -98,10 +99,7 @@
     
 }
 
-.main-content{
-  /* height:100%; */
-/*   display : block;
-  overflow: auto; */
+/* .main-content{
 
     display: flex;
     width:100%;
@@ -109,7 +107,7 @@
     height:auto;
 
 
-}
+} */
 
 
 .container{
