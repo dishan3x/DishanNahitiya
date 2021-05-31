@@ -40,24 +40,19 @@
     color: white;
   }
 
-  .underline{
-  /*   border-bottom-style: groove;
-    border-bottom-color: coral;
-    border-bottom-width: 7px; */
-  }
-
   /* .index-page-cont{ */
     .main-content{
     /* min-height: -webkit-fill-available; */
     background-color: #987f34;
     background-image:
       linear-gradient(
-        #ff818d, #f06d06
+       /*  #ff818d, #f06d06 */
+        #fffbfb, #b16c36
       );
 
       display: flex;
   width:100%;
-  height:100%;
+   height:130%; 
   }
   
   .navbar-custom{
@@ -126,3 +121,12 @@
 p{
   font-size: 1.3em;
 } 
+
+.titleName{
+  font-family: "Advent Pro" !important;
+  font-weight: 700 !important;
+  color: #3f3f3f !important;
+  font-style: normal !important;
+  text-transform: none !important;
+  letter-spacing: 1px !important;
+}
