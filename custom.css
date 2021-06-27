@@ -11,7 +11,7 @@
     /* float: left; */
     shape-outside: circle(50%);  
     line-height: 2.0;
-    font-size:large;
+    font-size:x-large;
     font-weight: bold;
   }
 
@@ -65,12 +65,16 @@
     background-image:
       linear-gradient(
        /*  #ff818d, #f06d06 */
-        #fffbfb, #b16c36
+       /*  #fffbfb, #b16c36 */
+      /*  #fffbfb, #000000 */
+      #fffbfb,#8f93a0
+
       );
-    height: 100%;
-    height: -moz-available;          /* WebKit-based browsers will ignore this. */
-    height: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
-    height: fill-available;
+      min-height: 100%;
+ /*    height: 100%;
+    height: -moz-available;          
+    height: -webkit-fill-available;  
+    height: fill-available; */
       
 
   }
@@ -79,16 +83,21 @@
     background-image:
       linear-gradient(
        /*  #ff818d, #f06d06 */
-        #fffbfb, #000000
+        #fffbfb, #8f93a0
 
       );
-    height: 100%;
-    height: -moz-available;          /* WebKit-based browsers will ignore this. */
-    height: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
-    height: fill-available;
+  /*   height: 200%;
+    height: -moz-available;         
+    height: -webkit-fill-available;  
+    height: fill-available; */  
       
 
   }
+
+/*   contain-custom{
+    background-image:#f8f4f4
+  }
+ */
 
   /* .container  { */
   /*   background-color: #987f34; */
@@ -121,8 +130,9 @@
  
   html, body {
     /* height: 100%; */
-    position: relative;
-    height: 100%;
+    position: inherit;
+    height: auto;
+    font-family: Open Sans;
     
 }
 
@@ -153,6 +163,11 @@ p{
   font-size: 1.3em;
 } 
 
+li{
+  font-size: 1.3em;
+} 
+ 
+
 .titleName{
   font-family: "Advent Pro" !important;
   font-weight: 700 !important;
@@ -180,7 +195,8 @@ p{
   z-index:999!important;
 }
 
-.main-dishan{
+/* .main-dishan{
   margin-top: -200px;
 }
 
+ */
