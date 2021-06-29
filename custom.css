@@ -21,10 +21,6 @@
     bottom:0;
     position :fixed;
     width:100%;
-    /* bottom:0; */
- /*    position:absolute; bottom:0px; left:0px; right:0px; overflow:hidden; */
-    
-    /* position:sticky; */
   }
   .footer a {
     color: #70726F;
@@ -179,15 +175,15 @@ li{
 }
 
 .carousel .carousel-item {
-  height: 1000px;
+  height: 800px;
 }
 
 .carousel-item img {
-    position: absolute;
+   /*  position: absolute; */
     object-fit:cover;
     top: 0;
     left: 0;
-    min-height: 1000px;
+    min-height: 800px;
 }
 
 
@@ -200,3 +196,4 @@ li{
 }
 
  */
+
