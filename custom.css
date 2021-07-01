@@ -197,3 +197,15 @@ li{
 
  */
 
+ .research_images{
+  width:100px;
+  height: 100px;
+ }
+
+ li{
+  margin: 10px 0;
+}
+
+.sport-div{
+margin: 10px 0;
+}
