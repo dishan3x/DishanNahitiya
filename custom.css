@@ -209,3 +209,60 @@ li{
 .sport-div{
 margin: 10px 0;
 }
+
+#portrait-image{
+  max-width:50%;
+}
+
+#new_div{
+   width:75%;
+   padding-top:5%;
+   margin:auto;
+}
+
+
+@media only screen and (max-width: 768px) {
+  /* For mobile: */
+  .navbar-custom{
+    float: left;
+  }
+  .navbar-collapse{
+    margin-left:20px;
+  } 
+
+
+  li {
+    margin: unset;
+    font-size: large;
+  }
+
+  .summary-div{
+    display:block;
+  }
+
+  #about_me_paragraph {
+    margin-top:20px;
+    /* float: left; */
+    shape-outside: circle(50%);
+    line-height: 2.0;
+    font-size: smaller;
+    font-weight: bold;
+  }
+
+  #portrait-image{
+    max-width:100%;
+  }
+
+  #new_div{
+    width:90%;
+    margin:auto;
+  }
+
+  .carouselIndicators{
+    width: 100%;
+    height: 50%;
+    padding-top: 5%;
+    padding-bottom: 7%;
+  }
+
+}
