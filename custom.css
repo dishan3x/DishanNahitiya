@@ -220,6 +220,15 @@ margin: 10px 0;
    margin:auto;
 }
 
+.carouselIndicators{
+  width:75%; 
+  height:75%;
+  padding-top:5%; 
+  padding-bottom:7%; 
+  margin: auto;
+  margin-top: 5%;
+}
+
 
 @media only screen and (max-width: 768px) {
   /* For mobile: */
