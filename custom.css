@@ -251,7 +251,7 @@ margin: 10px 0;
 
   li {
     margin: unset;
-    font-size: large;
+    font-size: larger;
   }
 
   .summary-div{
@@ -267,7 +267,7 @@ margin: 10px 0;
     /* float: left; */
     shape-outside: circle(50%);
     line-height: 2.0;
-    font-size: smaller;
+    font-size: initial;
     font-weight: bold;
   }
 
@@ -290,5 +290,9 @@ margin: 10px 0;
   .subjects{
     font-size: smaller;
   }
+
+  p{
+    font-size: unset;
+  } 
 
 }
