@@ -246,10 +246,6 @@ margin: 10px 0;
   float:right;
 }
 
-.fa-file{
-  font-size: 2500%; 
-}
-
 /* .carousel-control-next-icon {
   width: 5%;
   height: 5vw;
@@ -264,7 +260,6 @@ margin: 10px 0;
   .navbar-collapse{
     margin-left:20px;
   } 
-
 
   li {
     margin: unset;
