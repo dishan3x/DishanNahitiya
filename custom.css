@@ -151,6 +151,11 @@
   position:absolute; left:0px; right:0px; overflow:auto;
 } */
 
+header {
+  background-color: #fd7171b8;
+}
+
+
 .specifications{
   font-size:x-large;
 }
@@ -241,6 +246,10 @@ margin: 10px 0;
   float:right;
 }
 
+.fa-file{
+  font-size: 2500%; 
+}
+
 /* .carousel-control-next-icon {
   width: 5%;
   height: 5vw;
@@ -250,6 +259,7 @@ margin: 10px 0;
   /* For mobile: */
   .navbar-custom{
     float: left;
+     background-color:#ecaaaa00; 
   }
   .navbar-collapse{
     margin-left:20px;
