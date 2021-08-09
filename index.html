@@ -9,27 +9,46 @@
 <body>
   <!-- Navigation bar -->
 
-  <div id="nav-custom"></div>
-  <header>
+  
+
+  
+
+<!--   <header>
   <div class="jumbotron text-center upper-space">
     <h1 class="titleName">DISHAN ANUPAMA NAHITIYA</h1>
     <p class="specifications"> Machine learning . Deep learning . Software Engineering . Research Assistant</p>
   </div>   
-</header>
-  <br><br>
+</header> -->
 
 
 
 
-  <div class="container-fluid">
-    <div class="row summary-div">
-      <div class="col lg-4 md-12 sm-12 text-center">
-        <img id="portrait-image" class="img-fluid" src="images/index_images/facebook_image.jpg" />
-      </div>
-      <div class="col lg-8 md-1 sm-1 underline mx-auto">
+<div class="row name-title-div">
+  <div id="nav-custom"></div>
+  <div class="col lg-8 md-6 sm-12 text-center justify-content-center"  >
+    <h1 class="titleName-indexname">DISHAN NAHITIYA </h1>
+      <p class="specifications">  Software Engineering &#9679; Machine learning specialist </p>
+    </div>
+ 
+  <div class="col lg-4 md-6 sm-12 ">
+    <img id="portrait-image" class="img-fluid" src="images/index_images/dish_potrait_rm_background_3.png"/>
+    </div>
+</div>
+
+
+  <div class="container-fluid aboutme-div">
+    
+    
+  <div class="row summary-div">
+       <div class="col lg-2 md-6 sm-12 ">
+        <div class="square-wrapper">
+          <div class="square"><h1 class="about-me-title">ABOUT ME</h1></div>
+        </div>
+      </div> 
+      <div class="col lg-auto md-auto sm-1 underline ">
         <!-- <h3>About me</h3> -->
         <p id="about_me_paragraph">
-          Welcome to my portfolio. I'm Dishan Nahitiya, a goal-driven, result-oriented, and innovative software programmer and machine learning enthusiast. I developed machine learning models, web applications, and integrated embedded systems. In addition, In my life, I was blessed to be working as a student web developer, software developer, teaching assistant, and research assistant and perfect my craft every step of the way.
+          A goal-driven, result-oriented, and innovative software programmer and machine learning enthusiast. I developed machine learning models, web applications, and integrated embedded systems. Throughout my professional career, I have worked as a Web Application Developer, Full Stack Developer, Data scientist and Graduate Research Assistant.
         </p>
 
       <!--   <blockquote class="blockquote text-white" >
@@ -52,7 +71,6 @@
 
   </div><!--END row -->
 
-<br><br><br>
   </div><!--END container -->
 
   
@@ -177,5 +195,24 @@
  
   $("#nav-custom").load("nav.html");
   $("#footer-div").load("footer.html");
+ 
+  const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    console.log("helloo");
+    const square = entry.target.querySelector('.square');
   
+    if (entry.isIntersecting) {
+      console.log(entry.isIntersecting);
+      console.log(square);
+      square.classList.add('square-animation');
+	  return; // if we added the class, exit the function
+    }
+
+    // We're not intersecting, so remove the class!
+  
+    square.classList.remove('square-animation');
+  });
+});
+
+observer.observe(document.querySelector('.square-wrapper'));
 </script>
