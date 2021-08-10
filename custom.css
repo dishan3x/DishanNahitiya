@@ -442,6 +442,24 @@ margin: 10px 0;
 
 @media only screen and (max-width: 768px) {
 
+  
+.titleName-indexname{
+    /* color: #fff;  */
+    font-size: 70px;
+
+}
+
+#portrait-image{
+  margin-top: 10%;
+}
+
+.name-title-div{
+  width:auto;
+}
+
+.aboutme-div{
+  padding-top: 70%;
+}
   /* The nav icon will show */
   .navbar-custom{
     font-size:x-small;
