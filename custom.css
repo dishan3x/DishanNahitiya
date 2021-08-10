@@ -11,7 +11,6 @@
     background-image:url('images/index_images/duy-hoang-FRQUz7W1SvI-unsplash.jpg');
     background-size: cover ;
     color:white;
-    width:100%;
     padding-bottom: 20;
 /*     display:block;
  */    height: calc(100vh - 50px);
@@ -378,6 +377,7 @@ margin: 10px 0;
 
 .aboutme-div{
   padding-top:15%;
+  box-sizing :content-box !important;
 }
 
 .square{
@@ -391,6 +391,10 @@ margin: 10px 0;
 .square-animation{
   animation: wipe-enter 1s 1;
 }
+
+/* .leadership-info-div{
+  height: calc(100vh);
+} */
 
 @keyframes slideInFromLeft {
   0% {
@@ -464,6 +468,7 @@ margin: 10px 0;
     /*background-color: orange;
     line-height: 100vh;  */
   }
+
 
   .education-div{
     display:block;
