@@ -225,9 +225,12 @@ li{
 
 }
 
+.square-wrapper{
+  padding-left:10%;
+}
+
 .about-me-title{
   font-size: 80px;
-
 }
 
 .carousel .carousel-item {
